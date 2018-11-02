@@ -1,0 +1,132 @@
+#header {
+    border: 2px solid black;
+    height: 130px;
+    background: orange;
+    /*position: fixed;*/
+}
+
+#header .logo {
+    width: 20%;
+    float: left;
+    /*display: inline;*/
+    /*padding-left: 100px;*/
+}
+
+#header .content-logo {
+    /*background: orange;*/
+    font-family: Consolas;
+    float: left;
+    width: 20%;
+    font-size: 40px;
+    padding-top: 35px;
+}
+
+#header .logo img {
+    /*background: orange;*/
+
+    width: 100px;
+    padding-left: 200px;
+    padding-top: 10px;
+
+}
+
+#menu {
+    /*background: blue;*/
+    width: 55%;
+    float: left;
+}
+
+#menu .me_nu {
+    /*display: inline-block;*/
+    /*background: orange;*/
+    list-style-type: none;
+    float: left;
+    padding-left: 370px;
+    padding-top: 33px;
+}
+
+#menu ul li {
+    float: left;
+    color: #71609C;
+    width: 90px;
+    font-family: Consolas;
+    text-decoration: underline;
+    font-size: 22px;
+    padding-left: 22px;
+    /*border-right: 3px solid black;*/
+}
+
+/*#menu ul li:last-child {*/
+/*border-right: none;*/
+/*}*/
+
+#menu .part {
+    /*padding-left: 20px;*/
+    border-right: 3px solid black;
+    display: block;
+}
+
+#dictum {
+    background: #6FA8DC;
+    border: 2px solid black;
+    height: 130px;
+}
+
+#dictum .content {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Tahoma;
+    font-style: italic;
+    color: white;
+}
+
+#dictum .author {
+    color: white;
+    font-family:Consolas;
+    padding-top: 20px;
+    padding-right: 350px;
+    text-align: right;
+    font-size: 22px;
+}
+
+/*body*/
+#body .main-content .row {
+    background: red;
+    margin-left: 220px;
+    /*margin-right: px;*/
+}
+
+#body .main-content .row .item-column {
+    /*background: orange;*/
+    width: 24%;
+    float: left;
+    margin: 30px;
+}
+
+#body .main-content .tieude {
+    font-family: Consolas;
+    font-size: 27px;
+    color: #225F9A;
+    text-decoration: underline;
+}
+
+#body .main-content .images {
+    width: 100%;
+}
+
+#body .main-content .images img {
+    width: 100%;
+}
+
+#body .main-content .content {
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+
+.hea_der{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}

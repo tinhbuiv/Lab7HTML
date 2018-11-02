@@ -2,11 +2,13 @@
     border: 2px solid black;
     height: 130px;
     background: orange;
+    position: sticky;
+    top: 0;
     /*position: fixed;*/
 }
 
 #header .logo {
-    width: 20%;
+    width: 17%;
     float: left;
     /*display: inline;*/
     /*padding-left: 100px;*/
@@ -83,7 +85,7 @@
 
 #dictum .author {
     color: white;
-    font-family:Consolas;
+    font-family: Consolas;
     padding-top: 20px;
     padding-right: 350px;
     text-align: right;
@@ -92,7 +94,7 @@
 
 /*body*/
 #body .main-content .row {
-    background: red;
+    /*background: red;*/
     margin-left: 220px;
     /*margin-right: px;*/
 }
@@ -111,11 +113,13 @@
     text-decoration: underline;
 }
 
-#body .main-content .images {
-    width: 100%;
-}
+/*#body .main-content .images {*/
+/*width: 100%;*/
+/*float: left;*/
+/*}*/
 
 #body .main-content .images img {
+    max-height: 126px;
     width: 100%;
 }
 
@@ -124,9 +128,26 @@
     padding-top: 8px;
 }
 
+.rollback {
+    /*background: orange;*/
+    /*padding: 10px;*/
+    /*border: 2px solid black;*/
+    /*float: right;*/
+    margin: 30px;
+    width: 5%;
+    height: auto;
+    position: sticky;
+    bottom: 0;
+    padding-left: 90%;
+}
 
-.hea_der{
-position: -webkit-sticky;
-position: sticky;
-top: 0;
+.rollback img {
+    width: 100%;
+}
+
+.footer {
+    background: #6FA8DC;
+    height: 100px;
+    width: 100%;
+    text-align: center;
 }

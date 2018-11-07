@@ -136,9 +136,10 @@
     margin: 30px;
     width: 5%;
     height: auto;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     padding-left: 90%;
+    cursor: pointer;
 }
 
 .rollback img {
@@ -149,5 +150,8 @@
     background: #6FA8DC;
     height: 100px;
     width: 100%;
+    padding-top: 30px;
+    font-family: Consolas;
+    font-size: 22px;
     text-align: center;
 }
